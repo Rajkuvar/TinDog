@@ -1,0 +1,173 @@
+body{
+  font-family: Montserrat;
+  color: black;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* headings section */
+
+.big-heading {
+  font-size: 3.5rem;
+  line height: 2;
+  font-weight: bold;
+  margin: 40px 0;
+  color: white;
+}
+
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.conatiner-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: Ubantu;
+  font-size: 250%;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2 rem;
+  font-family: "Montserrat-light";
+}
+
+.title-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+.profile-img {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* features section */
+#features {
+  position: relative;
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.feature-text {
+  width: 80%;
+  margin: 0 auto;
+  color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 1.5rem;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color:#ef8172
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 7% 15%;
+}
+
+@media (max-width:1000px)
+{
+  #title{
+    text-align: center;
+  }
+  .profile-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+
+/* cta section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 0 7%;
+}
+.cta-heading {
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+.endbt {
+  margin: 1rem;
+}
+#footer {
+  padding: 7rem;
+  background-color: #fff;
+}
+.icn {
+  margin: 15px;
+}
